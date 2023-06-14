@@ -4,13 +4,15 @@ Various flavour of ping pong game
 
 1. Local ping pong
    - the code resides in pingpong.go
-   - run it as go run ping[ong.go
+   - run it as `go run pingpong.go`
    - code courtsey: https://riptutorial.com/go/example/6056/ping-pong-with-two-goroutines
 2. Web ping pong running on local http server
     - pingpong running on local http server
     - two endpoints are exposed on local webserver
     - ping is calling pong ednpoint of same webserver
     - code courtesy: https://github.com/nkratzke/pingpong/tree/master/pingpong-go/src/pingpong
+    - run it as `go run webpingpong.go`
+    - then run client `go run webppclient.go` or you can use curl command
 3. Distributed ping pong <!ToDo>
     - It is imagined to be a variance of #2
     - In this worls there will be multiple webserver running ping and pong endpoints
