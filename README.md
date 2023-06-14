@@ -11,7 +11,7 @@ Various flavour of ping pong game
     - two endpoints are exposed on local webserver
     - ping is calling pong ednpoint of same webserver
     - code courtesy: https://github.com/nkratzke/pingpong/tree/master/pingpong-go/src/pingpong
-3. Distributed ping pong <todo>
+3. Distributed ping pong <!ToDo>
     - It is imagined to variance of #2
     - In this worls there will be multiple webserver running ping and pong endpoints
     - A ping now can call any of the available pong endpoints
